@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<book lang="pt-BR">
+
+    <xi:include href="bookinfo.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+    <!-- prefácio -->
+    <preface>
+        <title>Demoiselle scheduler</title>
+        <para>
+            O Demoseille scheduler propicia uma configuração fácil para o agendamento da execução de métodos na camada de negócio e persistência.
+        </para>
+    </preface>
+
+
+    <!-- índice -->
+    <toc />
+
+    <!-- capítulos -->
+
+    <xi:include href="configuracao.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+    <xi:include href="releasenotes.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+    <xi:include href="quickstart.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</book>
